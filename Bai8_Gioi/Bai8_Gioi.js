@@ -1,7 +1,8 @@
-let smallLetter;
-let upperLetter;
-let includeNumber;
+
 function  isStrongPassword(password) {
+    let smallLetter;
+    let upperLetter;
+    let includeNumber;
     if(password.length >= 8){
         for (let i = 0; i < password.length; i++) {
             if(password[i] >= 'a' && password[i]<= 'z'){
